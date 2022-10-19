@@ -24,3 +24,5 @@
 - [remote-exec provisioner](https://www.terraform.io/docs/language/resources/provisioners/remote-exec.html)
 - [local-exec provisioner](https://www.terraform.io/docs/language/resources/provisioners/local-exec.html)
 - [depends_on Meta-Argument](https://www.terraform.io/docs/language/meta-arguments/depends_on.html)
+### Application Load Balancer
+- Create AWS ALB Application Load Balancer Terraform Module
