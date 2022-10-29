@@ -1,0 +1,34 @@
+{
+  "accountId" : "802607305497",
+  "architecture" : "x86_64",
+  "availabilityZone" : "us-east-1b",
+  "billingProducts" : null,
+  "devpayProductCodes" : null,
+  "marketplaceProductCodes" : null,
+  "imageId" : "ami-0c4e4b4eb2e11d1d4",
+  "instanceId" : "i-0cd4a3dee257bd553",
+  "instanceType" : "t2.micro",
+  "kernelId" : null,
+  "pendingTime" : "2022-10-29T04:02:25Z",
+  "privateIp" : "10.0.2.32",
+  "ramdiskId" : null,
+  "region" : "us-east-1",
+  "version" : "2017-09-30"
+}===================================================
+{
+  "accountId" : "802607305497",
+  "architecture" : "x86_64",
+  "availabilityZone" : "us-east-1b",
+  "billingProducts" : null,
+  "devpayProductCodes" : null,
+  "marketplaceProductCodes" : null,
+  "imageId" : "ami-0c4e4b4eb2e11d1d4",
+  "instanceId" : "i-005b97a1f21b91683",
+  "instanceType" : "t2.micro",
+  "kernelId" : null,
+  "pendingTime" : "2022-10-29T04:02:25Z",
+  "privateIp" : "10.0.2.140",
+  "ramdiskId" : null,
+  "region" : "us-east-1",
+  "version" : "2017-09-30"
+}
