@@ -9,6 +9,9 @@
   - File Provisioner
   - Remote-exec Provisioner
   - Local-exec Provisioner
+  - Created and Implement an Application Load Balancer Context Path based Routing in AWS using Terraform.
+    - Listener Indexes: https_listener_index = 0
+    - Target Group Indexes: target_group_index = 0
 
 ### Terraform Modules used
 
