@@ -1,0 +1,82 @@
+acm_certificate_arn = "arn:aws:acm:us-east-2:802607305497:certificate/376f0c79-27ab-41ec-b35e-f76454f5d45e"
+app1_ec2_private_instance_ids = [
+  "i-0c4d4dcab675a3b95",
+  "i-09044f0c00b9f7521",
+]
+app1_ec2_private_ip = [
+  "10.0.1.137",
+  "10.0.2.206",
+]
+app2_ec2_private_instance_ids = [
+  "i-0eba485ab9511a01a",
+  "i-0295c8d3cd5c02b27",
+]
+app2_ec2_private_ip = [
+  "10.0.1.60",
+  "10.0.2.224",
+]
+azs = tolist([
+  "us-east-2a",
+  "us-east-2b",
+])
+ec2_bastion_public_instance_ids = [
+  "i-03b86e32238b7832b",
+]
+ec2_bastion_public_ip = [
+  "52.15.104.184",
+]
+http_tcp_listener_arns = [
+  "arn:aws:elasticloadbalancing:us-east-2:802607305497:listener/app/HR-stag-alb/812a240ca0f752f0/46b425b4708ec9ed",
+]
+http_tcp_listener_ids = [
+  "arn:aws:elasticloadbalancing:us-east-2:802607305497:listener/app/HR-stag-alb/812a240ca0f752f0/46b425b4708ec9ed",
+]
+https_listener_arns = [
+  "arn:aws:elasticloadbalancing:us-east-2:802607305497:listener/app/HR-stag-alb/812a240ca0f752f0/3c61ceb54239c06f",
+]
+https_listener_ids = [
+  "arn:aws:elasticloadbalancing:us-east-2:802607305497:listener/app/HR-stag-alb/812a240ca0f752f0/3c61ceb54239c06f",
+]
+mydomain_zoneid = "Z073651441IJIESKK9V3"
+nat_public_ips = tolist([
+  "3.129.106.225",
+])
+private_sg_group_id = "sg-089f3b593b05b6514"
+private_sg_group_name = "private-sg-20221030200420929000000004"
+private_sg_group_vpc_id = "vpc-02b558bab0f8cb015"
+private_subnets = [
+  "subnet-082d2cd5913c5d030",
+  "subnet-09c08ffa251563a72",
+]
+public_bastion_sg_group_id = "sg-091b2227e820b25ce"
+public_bastion_sg_group_name = "public-bastion-sg-20221030200420860400000003"
+public_bastion_sg_group_vpc_id = "vpc-02b558bab0f8cb015"
+public_subnets = [
+  "subnet-0a36712a13b6a5d65",
+  "subnet-0385602303bb1fe59",
+]
+target_group_arn_suffixes = [
+  "targetgroup/app1-20221030200651393300000005/6b7f0c73fbdacc3f",
+  "targetgroup/app2-20221030200651393300000006/7a1677e61a3a1fa4",
+]
+target_group_arns = [
+  "arn:aws:elasticloadbalancing:us-east-2:802607305497:targetgroup/app1-20221030200651393300000005/6b7f0c73fbdacc3f",
+  "arn:aws:elasticloadbalancing:us-east-2:802607305497:targetgroup/app2-20221030200651393300000006/7a1677e61a3a1fa4",
+]
+target_group_attachments = {
+  "0.my_app1_vm1" = "arn:aws:elasticloadbalancing:us-east-2:802607305497:targetgroup/app1-20221030200651393300000005/6b7f0c73fbdacc3f-20221030200652709700000009"
+  "0.my_app1_vm2" = "arn:aws:elasticloadbalancing:us-east-2:802607305497:targetgroup/app1-20221030200651393300000005/6b7f0c73fbdacc3f-2022103020065288230000000a"
+  "1.my_app2_vm1" = "arn:aws:elasticloadbalancing:us-east-2:802607305497:targetgroup/app2-20221030200651393300000006/7a1677e61a3a1fa4-20221030200652685100000008"
+  "1.my_app2_vm2" = "arn:aws:elasticloadbalancing:us-east-2:802607305497:targetgroup/app2-20221030200651393300000006/7a1677e61a3a1fa4-20221030200652669600000007"
+}
+target_group_names = [
+  "app1-20221030200651393300000005",
+  "app2-20221030200651393300000006",
+]
+this_lb_arn = "arn:aws:elasticloadbalancing:us-east-2:802607305497:loadbalancer/app/HR-stag-alb/812a240ca0f752f0"
+this_lb_arn_suffix = "app/HR-stag-alb/812a240ca0f752f0"
+this_lb_dns_name = "HR-stag-alb-129785154.us-east-2.elb.amazonaws.com"
+this_lb_id = "arn:aws:elasticloadbalancing:us-east-2:802607305497:loadbalancer/app/HR-stag-alb/812a240ca0f752f0"
+this_lb_zone_id = "Z3AADJGX6KTTL2"
+vpc_cidr_block = "10.0.0.0/16"
+vpc_id = "vpc-02b558bab0f8cb015"

@@ -1,0 +1,39 @@
+### APP1 Metadata ###
+ 
+{
+  "accountId" : "802607305497",
+  "architecture" : "x86_64",
+  "availabilityZone" : "us-east-2b",
+  "billingProducts" : null,
+  "devpayProductCodes" : null,
+  "marketplaceProductCodes" : null,
+  "imageId" : "ami-07693758d0ebc2111",
+  "instanceId" : "i-09044f0c00b9f7521",
+  "instanceType" : "t2.micro",
+  "kernelId" : null,
+  "pendingTime" : "2022-10-30T20:06:19Z",
+  "privateIp" : "10.0.2.206",
+  "ramdiskId" : null,
+  "region" : "us-east-2",
+  "version" : "2017-09-30"
+  
+ ========================================================= 
+### APP2 Metadata ###
+  
+{
+  "accountId" : "802607305497",
+  "architecture" : "x86_64",
+  "availabilityZone" : "us-east-2a",
+  "billingProducts" : null,
+  "devpayProductCodes" : null,
+  "marketplaceProductCodes" : null,
+  "imageId" : "ami-07693758d0ebc2111",
+  "instanceId" : "i-0eba485ab9511a01a",
+  "instanceType" : "t2.micro",
+  "kernelId" : null,
+  "pendingTime" : "2022-10-30T20:06:19Z",
+  "privateIp" : "10.0.1.60",
+  "ramdiskId" : null,
+  "region" : "us-east-2",
+  "version" : "2017-09-30"
+}
