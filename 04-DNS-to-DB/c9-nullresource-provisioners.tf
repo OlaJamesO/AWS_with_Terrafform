@@ -10,7 +10,7 @@ resource "null_resource" "name" {
     private_key = file("private-key/terraform-key.pem")
   }
 
-  ## File Provisioner: Copies the terraform-key-us-east-2.pem file to /tmp/terraform-key-us-east-2.pem
+  ## File Provisioner: Copies the terraform-key.pem file to /tmp/terraform-key.pem
   provisioner "file" {
     source      = "private-key/terraform-key.pem"
     destination = "/tmp/terraform-key.pem"
