@@ -1,0 +1,52 @@
+for i in `seq 1 3`; do curl https://asg-lc.jameso.tech/app1/metadata.html; done >> matadata.txt
+ 
+-----------
+{
+  "accountId" : "802607305497",
+  "architecture" : "x86_64",
+  "availabilityZone" : "us-east-1b",
+  "billingProducts" : null,
+  "devpayProductCodes" : null,
+  "marketplaceProductCodes" : null,
+  "imageId" : "ami-0c4e4b4eb2e11d1d4",
+  "instanceId" : "i-07e9bb15a876c53f0",
+  "instanceType" : "t3.micro",
+  "kernelId" : null,
+  "pendingTime" : "2022-11-05T01:15:05Z",
+  "privateIp" : "10.0.2.152",
+  "ramdiskId" : null,
+  "region" : "us-east-1",
+  "version" : "2017-09-30"
+}{
+  "accountId" : "802607305497",
+  "architecture" : "x86_64",
+  "availabilityZone" : "us-east-1a",
+  "billingProducts" : null,
+  "devpayProductCodes" : null,
+  "marketplaceProductCodes" : null,
+  "imageId" : "ami-0c4e4b4eb2e11d1d4",
+  "instanceId" : "i-0b65787fd3e798860",
+  "instanceType" : "t3.micro",
+  "kernelId" : null,
+  "pendingTime" : "2022-11-05T01:16:39Z",
+  "privateIp" : "10.0.1.156",
+  "ramdiskId" : null,
+  "region" : "us-east-1",
+  "version" : "2017-09-30"
+}{
+  "accountId" : "802607305497",
+  "architecture" : "x86_64",
+  "availabilityZone" : "us-east-1b",
+  "billingProducts" : null,
+  "devpayProductCodes" : null,
+  "marketplaceProductCodes" : null,
+  "imageId" : "ami-0c4e4b4eb2e11d1d4",
+  "instanceId" : "i-07e9bb15a876c53f0",
+  "instanceType" : "t3.micro",
+  "kernelId" : null,
+  "pendingTime" : "2022-11-05T01:15:05Z",
+  "privateIp" : "10.0.2.152",
+  "ramdiskId" : null,
+  "region" : "us-east-1",
+  "version" : "2017-09-30"
+}
