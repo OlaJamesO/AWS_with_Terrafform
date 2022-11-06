@@ -33,32 +33,23 @@
 
 - Create HTTPS Listener Rule for `(/*)`
 
-### Create ASG and LC
-
-- Create `Launch Configuration`
-- Create `Autoscaling Group`
-- Map it with ALB (Application Load Balancer)
-- Create Autoscaling Outputs
-- Create SNS Topic `aws_sns_topic`
-- Create SNS Topic Subscription `aws_sns_topic_subscription`
-- Create Autoscaling Notification Resource `aws_autoscaling_notification`
-- Create `Resource: aws_autoscaling_policy`
-      - ASGAverageCPUUtilization
-      - ALBRequestCountPerTarget
-- Terraform Import for `ALBRequestCountPerTarget` Resource Label finding (Standard 
-- Create a scheduled action to `increase capacity at 7am`
-- Create a scheduled action to `decrease capacity at 5pm`
-- Change Desired capacity to 3 `desired_capacity = 3` and test
-- Any change to ASG specific arguments listed in `triggers` of `instance_refresh` block, do a instance refresh
-- Use postman to put load to test the `TTSP` (Target Tracking Scaling Policies) policies for autoscaling
+### Create Lunch Template
+- Create Launch Templates using Terraform Resources
+- Create Autoscaling Group using Terraform Resources
+- Create Autoscaling following features using Terraform Resources
+- Autoscaling Notifications
+- Autoscaling Scheduled Actions
+- Autoscaling Target Tracking Scaling Policies (TTSP)
 
 
 ### Terraform Modules used
+
+- Define [Launch Template Resource](<https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/launch_template>)
 - [Terraform Autoscaling Module](https://registry.terraform.io/modules/terraform-aws-modules/autoscaling/aws/latest)
 
 - [terraform-aws-modules/rds/aws](https://registry.terraform.io/modules/terraform-aws-modules/rds/aws/latest)
 - [terraform-aws-modules/vpc/aws](https://registry.terraform.io/modules/terraform-aws-modules/vpc/aws/latest)
-  - - [terraform-aws-modules/aws](https://registry.terraform.io/modules/terraform-aws-modules/aws/latest)
+- [terraform-aws-modules/aws](https://registry.terraform.io/modules/terraform-aws-modules/aws/latest)
 
 - [terraform-aws-modules/security-group/aws](https://registry.terraform.io/modules/terraform-aws-modules/security-group/aws/latest)
 

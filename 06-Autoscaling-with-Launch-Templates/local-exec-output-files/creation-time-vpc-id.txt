@@ -1,0 +1,14 @@
+VPC created on `date` and VPC ID: vpc-01c3040932adf2ea9 
+VPC created on `date` and VPC ID: vpc-083d11f93dcc510dc 
+VPC created on `date` and VPC ID: vpc-0500b1c70bc5cb899 
+VPC created on `date` and VPC ID: vpc-05f2032f4bc40c4e0 
+VPC created on `date` and VPC ID: vpc-032cedc4ee21b16a3 
+VPC created on `date` and VPC ID: vpc-09b127a97305616e7 
+VPC created on `date` and VPC ID: vpc-0298fcd2d48b59ca0 
+VPC created on `date` and VPC ID: vpc-08051cd241dac36f0 
+VPC created on `date` and VPC ID: vpc-0660e913b89b3d3b0 
+VPC created on `date` and VPC ID: vpc-0938907208e7e7d0e 
+VPC created on `date` and VPC ID: vpc-02a3af8c1e487f316 
+VPC created on `date` and VPC ID: vpc-00e34613396258e34 
+VPC created on `date` and VPC ID: vpc-05f495cd8e2c435e6 
+VPC created on `date` and VPC ID: vpc-06a6b1225d702d395 

@@ -1,0 +1,37 @@
+for i in `seq 1 2`; do curl https://asg-lt.jameso.tech/app1/metadata.html; done >> matadata.txt
+
+
+{
+  "accountId" : "802607305497",
+  "architecture" : "x86_64",
+  "availabilityZone" : "us-east-1a",
+  "billingProducts" : null,
+  "devpayProductCodes" : null,
+  "marketplaceProductCodes" : null,
+  "imageId" : "ami-0c4e4b4eb2e11d1d4",
+  "instanceId" : "i-0480907018542375f",
+  "instanceType" : "t3.micro",
+  "kernelId" : null,
+  "pendingTime" : "2022-11-05T21:17:46Z",
+  "privateIp" : "10.0.1.178",
+  "ramdiskId" : null,
+  "region" : "us-east-1",
+  "version" : "2017-09-30"
+}
+{
+  "accountId" : "802607305497",
+  "architecture" : "x86_64",
+  "availabilityZone" : "us-east-1b",
+  "billingProducts" : null,
+  "devpayProductCodes" : null,
+  "marketplaceProductCodes" : null,
+  "imageId" : "ami-0c4e4b4eb2e11d1d4",
+  "instanceId" : "i-072daa02df91552af",
+  "instanceType" : "t3.micro",
+  "kernelId" : null,
+  "pendingTime" : "2022-11-05T21:17:46Z",
+  "privateIp" : "10.0.2.106",
+  "ramdiskId" : null,
+  "region" : "us-east-1",
+  "version" : "2017-09-30"
+}
