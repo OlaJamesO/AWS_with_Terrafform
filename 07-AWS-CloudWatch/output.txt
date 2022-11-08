@@ -1,0 +1,63 @@
+acm_certificate_arn = "arn:aws:acm:us-east-1:802607305497:certificate/b62e6e19-ccd9-4f99-a4db-50b1364d61c2"
+autoscaling_group_arn = "arn:aws:autoscaling:us-east-1:802607305497:autoScalingGroup:09e53635-8893-4c2b-a107-e12f3ae6611d:autoScalingGroupName/myasg-20221107225446919300000009"
+autoscaling_group_id = "myasg-20221107225446919300000009"
+autoscaling_group_name = "myasg-20221107225446919300000009"
+azs = tolist([
+  "us-east-1a",
+  "us-east-1b",
+])
+ec2_bastion_public_instance_ids = [
+  "i-0ee6847f4e9bc2501",
+]
+ec2_bastion_public_ip = [
+  "54.83.106.143",
+]
+http_tcp_listener_arns = [
+  "arn:aws:elasticloadbalancing:us-east-1:802607305497:listener/app/Dev-stag-alb/b121d85da885ef30/862e50ac8106e04c",
+]
+http_tcp_listener_ids = [
+  "arn:aws:elasticloadbalancing:us-east-1:802607305497:listener/app/Dev-stag-alb/b121d85da885ef30/862e50ac8106e04c",
+]
+https_listener_arns = [
+  "arn:aws:elasticloadbalancing:us-east-1:802607305497:listener/app/Dev-stag-alb/b121d85da885ef30/6a7e63a6bd643793",
+]
+https_listener_ids = [
+  "arn:aws:elasticloadbalancing:us-east-1:802607305497:listener/app/Dev-stag-alb/b121d85da885ef30/6a7e63a6bd643793",
+]
+launch_template_id = "lt-0f9bf33a05c3ea191"
+launch_template_latest_version = 1
+lb_arn = "arn:aws:elasticloadbalancing:us-east-1:802607305497:loadbalancer/app/Dev-stag-alb/b121d85da885ef30"
+lb_arn_suffix = "app/Dev-stag-alb/b121d85da885ef30"
+lb_dns_name = "Dev-stag-alb-36175261.us-east-1.elb.amazonaws.com"
+lb_id = "arn:aws:elasticloadbalancing:us-east-1:802607305497:loadbalancer/app/Dev-stag-alb/b121d85da885ef30"
+lb_zone_id = "Z35SXDOTRQ7X7K"
+mydomain_zoneid = "Z073651441IJIESKK9V3"
+nat_public_ips = tolist([
+  "54.173.129.68",
+])
+private_sg_group_id = "sg-0b028ac2f634a50bc"
+private_sg_group_name = "private-sg-20221107225221040500000003"
+private_sg_group_vpc_id = "vpc-0bdc9226b9bf98b45"
+private_subnets = [
+  "subnet-084f4afb72290f8f2",
+  "subnet-0c276d75d756e8211",
+]
+public_bastion_sg_group_id = "sg-04a0465d703a232d6"
+public_bastion_sg_group_name = "public-bastion-sg-20221107225221269900000004"
+public_bastion_sg_group_vpc_id = "vpc-0bdc9226b9bf98b45"
+public_subnets = [
+  "subnet-0dde00b834ca1b7a4",
+  "subnet-05f0f940306d31d4e",
+]
+target_group_arn_suffixes = [
+  "targetgroup/app1-20221107225445734600000008/3b87e5638f7b2405",
+]
+target_group_arns = [
+  "arn:aws:elasticloadbalancing:us-east-1:802607305497:targetgroup/app1-20221107225445734600000008/3b87e5638f7b2405",
+]
+target_group_attachments = {}
+target_group_names = [
+  "app1-20221107225445734600000008",
+]
+vpc_cidr_block = "10.0.0.0/16"
+vpc_id = "vpc-0bdc9226b9bf98b45"
