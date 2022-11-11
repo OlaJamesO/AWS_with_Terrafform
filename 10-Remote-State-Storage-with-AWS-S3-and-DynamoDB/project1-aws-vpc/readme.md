@@ -1,0 +1,7 @@
+- Understand Terraform Modules
+- Create VPC using  `Terraform Modules`
+- Define  `Input Variables`  for VPC module and reference them in VPC Terraform Module
+- Define  `local values`  and reference them in VPC Terraform Module
+- Create  `terraform.tfvars`  to load variable values by default from this file
+- Create  `vpc.auto.tfvars`  to load variable values by default from this file related to a VPC
+- Define  `Output Values`  for VPC

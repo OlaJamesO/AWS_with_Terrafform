@@ -1,0 +1,37 @@
+for i in `seq 1 2`; do curl https://tf-multi-app-projects.jameso.tech/app1/metadata.html; done >> matadata.txt
+
+
+
+{
+  "accountId" : "802607305497",
+  "architecture" : "x86_64",
+  "availabilityZone" : "us-east-1b",
+  "billingProducts" : null,
+  "devpayProductCodes" : null,
+  "marketplaceProductCodes" : null,
+  "imageId" : "ami-0c4e4b4eb2e11d1d4",
+  "instanceId" : "i-0ebf0abb177529e37",
+  "instanceType" : "t3.micro",
+  "kernelId" : null,
+  "pendingTime" : "2022-11-11T02:51:38Z",
+  "privateIp" : "10.0.2.206",
+  "ramdiskId" : null,
+  "region" : "us-east-1",
+  "version" : "2017-09-30"
+}{
+  "accountId" : "802607305497",
+  "architecture" : "x86_64",
+  "availabilityZone" : "us-east-1a",
+  "billingProducts" : null,
+  "devpayProductCodes" : null,
+  "marketplaceProductCodes" : null,
+  "imageId" : "ami-0c4e4b4eb2e11d1d4",
+  "instanceId" : "i-0b3d491117212268c",
+  "instanceType" : "t3.micro",
+  "kernelId" : null,
+  "pendingTime" : "2022-11-11T02:51:38Z",
+  "privateIp" : "10.0.1.193",
+  "ramdiskId" : null,
+  "region" : "us-east-1",
+  "version" : "2017-09-30"
+}

@@ -1,0 +1,17 @@
+azs = tolist([
+  "us-east-1a",
+  "us-east-1b",
+])
+nat_public_ips = tolist([
+  "54.243.224.161",
+])
+private_subnets = [
+  "subnet-0b0ab62a057722dab",
+  "subnet-0cfa871345731a159",
+]
+public_subnets = [
+  "subnet-09a2620b882443e45",
+  "subnet-05cb7340c98fa4f6d",
+]
+vpc_cidr_block = "10.0.0.0/16"
+vpc_id = "vpc-01c65b71549473970"

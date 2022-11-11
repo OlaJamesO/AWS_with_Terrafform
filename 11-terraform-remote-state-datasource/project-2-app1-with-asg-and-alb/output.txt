@@ -1,0 +1,46 @@
+acm_certificate_arn = "arn:aws:acm:us-east-1:802607305497:certificate/a82cbd21-c0c5-4173-9f52-8101d585105a"
+autoscaling_group_arn = "arn:aws:autoscaling:us-east-1:802607305497:autoScalingGroup:c816ef46-bde3-4e5d-a894-913508897903:autoScalingGroupName/myasg-20221111025132503100000008"
+autoscaling_group_id = "myasg-20221111025132503100000008"
+autoscaling_group_name = "myasg-20221111025132503100000008"
+ec2_bastion_public_instance_ids = [
+  "i-09f50e7ef89fa6da1",
+]
+ec2_bastion_public_ip = [
+  "54.160.72.156",
+]
+http_tcp_listener_arns = [
+  "arn:aws:elasticloadbalancing:us-east-1:802607305497:listener/app/Dev-stag-alb/508e2571ffdfa12b/c1f1d70b30cdc631",
+]
+http_tcp_listener_ids = [
+  "arn:aws:elasticloadbalancing:us-east-1:802607305497:listener/app/Dev-stag-alb/508e2571ffdfa12b/c1f1d70b30cdc631",
+]
+https_listener_arns = [
+  "arn:aws:elasticloadbalancing:us-east-1:802607305497:listener/app/Dev-stag-alb/508e2571ffdfa12b/c8ff4d2cf698d331",
+]
+https_listener_ids = [
+  "arn:aws:elasticloadbalancing:us-east-1:802607305497:listener/app/Dev-stag-alb/508e2571ffdfa12b/c8ff4d2cf698d331",
+]
+launch_template_id = "lt-02129f675bb056ce4"
+launch_template_latest_version = 1
+lb_arn = "arn:aws:elasticloadbalancing:us-east-1:802607305497:loadbalancer/app/Dev-stag-alb/508e2571ffdfa12b"
+lb_arn_suffix = "app/Dev-stag-alb/508e2571ffdfa12b"
+lb_dns_name = "Dev-stag-alb-779071797.us-east-1.elb.amazonaws.com"
+lb_id = "arn:aws:elasticloadbalancing:us-east-1:802607305497:loadbalancer/app/Dev-stag-alb/508e2571ffdfa12b"
+lb_zone_id = "Z35SXDOTRQ7X7K"
+mydomain_zoneid = "Z073651441IJIESKK9V3"
+private_sg_group_id = "sg-065437d661184ddf5"
+private_sg_group_name = "private-sg-20221111024924436400000001"
+private_sg_group_vpc_id = "vpc-01c65b71549473970"
+public_bastion_sg_group_id = "sg-0017f277d70a57199"
+public_bastion_sg_group_name = "public-bastion-sg-20221111024924521400000004"
+public_bastion_sg_group_vpc_id = "vpc-01c65b71549473970"
+target_group_arn_suffixes = [
+  "targetgroup/app1-20221111025131610700000007/89202a9bf39d7b9e",
+]
+target_group_arns = [
+  "arn:aws:elasticloadbalancing:us-east-1:802607305497:targetgroup/app1-20221111025131610700000007/89202a9bf39d7b9e",
+]
+target_group_attachments = {}
+target_group_names = [
+  "app1-20221111025131610700000007",
+]
