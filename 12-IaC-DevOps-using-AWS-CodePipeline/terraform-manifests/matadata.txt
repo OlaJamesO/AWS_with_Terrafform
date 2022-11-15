@@ -1,0 +1,36 @@
+for i in `seq 1 2`; do curl https://cloudwatch.jameso.tech/app1/metadata.html; done >> matadata.txt
+
+
+{
+  "accountId" : "802607305497",
+  "architecture" : "x86_64",
+  "availabilityZone" : "us-east-1b",
+  "billingProducts" : null,
+  "devpayProductCodes" : null,
+  "marketplaceProductCodes" : null,
+  "imageId" : "ami-0c4e4b4eb2e11d1d4",
+  "instanceId" : "i-00c7a45ca00533e25",
+  "instanceType" : "t3.micro",
+  "kernelId" : null,
+  "pendingTime" : "2022-11-07T22:54:52Z",
+  "privateIp" : "10.0.2.30",
+  "ramdiskId" : null,
+  "region" : "us-east-1",
+  "version" : "2017-09-30"
+}{
+  "accountId" : "802607305497",
+  "architecture" : "x86_64",
+  "availabilityZone" : "us-east-1b",
+  "billingProducts" : null,
+  "devpayProductCodes" : null,
+  "marketplaceProductCodes" : null,
+  "imageId" : "ami-0c4e4b4eb2e11d1d4",
+  "instanceId" : "i-0b51542daf4f14016",
+  "instanceType" : "t3.micro",
+  "kernelId" : null,
+  "pendingTime" : "2022-11-07T23:58:18Z",
+  "privateIp" : "10.0.2.104",
+  "ramdiskId" : null,
+  "region" : "us-east-1",
+  "version" : "2017-09-30"
+}
