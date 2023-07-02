@@ -3,7 +3,7 @@ for i in `seq 1 2`; do curl https://tf-multi-app-projects.jameso.tech/app1/metad
 
 
 {
-  "accountId" : "802607305497",
+  "accountId" : "8026**********",
   "architecture" : "x86_64",
   "availabilityZone" : "us-east-1b",
   "billingProducts" : null,
@@ -19,7 +19,7 @@ for i in `seq 1 2`; do curl https://tf-multi-app-projects.jameso.tech/app1/metad
   "region" : "us-east-1",
   "version" : "2017-09-30"
 }{
-  "accountId" : "802607305497",
+  "accountId" : "8026**********",
   "architecture" : "x86_64",
   "availabilityZone" : "us-east-1a",
   "billingProducts" : null,
