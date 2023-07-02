@@ -2,7 +2,7 @@ for i in `seq 1 2`; do curl https://asg-lt.jameso.tech/app1/metadata.html; done 
 
 
 {
-  "accountId" : "802607305497",
+  "accountId" : "8026**********7",
   "architecture" : "x86_64",
   "availabilityZone" : "us-east-1a",
   "billingProducts" : null,
@@ -19,7 +19,7 @@ for i in `seq 1 2`; do curl https://asg-lt.jameso.tech/app1/metadata.html; done 
   "version" : "2017-09-30"
 }
 {
-  "accountId" : "802607305497",
+  "accountId" : 8026**********7",
   "architecture" : "x86_64",
   "availabilityZone" : "us-east-1b",
   "billingProducts" : null,
