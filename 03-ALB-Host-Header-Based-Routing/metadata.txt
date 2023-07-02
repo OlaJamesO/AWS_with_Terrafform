@@ -1,7 +1,7 @@
 ### APP1 Metadata ###
  
 {
-  "accountId" : "802607305497",
+  "accountId" : "8026**********",
   "architecture" : "x86_64",
   "availabilityZone" : "us-east-2b",
   "billingProducts" : null,
@@ -21,7 +21,7 @@
 ### APP2 Metadata ###
   
 {
-  "accountId" : "802607305497",
+  "accountId" : "8026**********",
   "architecture" : "x86_64",
   "availabilityZone" : "us-east-2a",
   "billingProducts" : null,
